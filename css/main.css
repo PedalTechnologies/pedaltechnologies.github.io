@@ -1,0 +1,167 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  color: #181818;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.row {
+	margin: 0;
+}
+
+.col-md-3, .col-md-5 {
+	padding: 0;
+}
+
+.page {
+	width: 100%;
+	height: 100vh;
+}
+
+.dark-blue-background {
+	background: #5014EA;
+}
+
+.dark-blue-color {
+	color: #5014EA;
+}
+
+.white-color {
+	color: white;
+}
+
+.float-right {
+	float: right;
+}
+
+.margin {
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+.logo-image {
+	width: 50%;
+}
+
+.labels {
+	top: 15vh;
+	cursor: pointer;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+.labels:hover {
+	/*color: #337ab7;*/
+	/*color: #5014EA;*/
+	/*border-bottom: 2px solid #5014EA;*/
+	text-decoration: underline;
+}
+
+.project {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.project-image {
+	width: 100%;
+}
+
+.project-title {
+	margin-top: -5vh;
+	/*font-family: 'Merriweather', serif;*/
+	/*color: #42C0FB;*/
+	font-size: 30px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.project-desc {
+	padding-bottom: 20px;
+}
+
+.project-link-lightblue {
+	color: #00DCB9;
+	padding-bottom: 2px;
+}
+
+.project-link-lightblue:hover {
+	color: #00DCB9;
+	text-decoration: none;
+	border-bottom: 2px solid #00DCB9;  
+}
+
+.project-link-lightblue:visited {
+	color: #00DCB9;
+}
+
+.project-link-darkblue {
+	color: black;
+	padding-bottom: 2px;
+}
+
+.project-link-darkblue:hover {
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px solid black;  
+}
+
+.project-link-darkblue:visited {
+	color: #000;
+}
+
+#home {
+	position: relative;
+}
+
+	#about-div-container {
+		display: flex;
+	    align-items: center;
+	    flex-wrap: wrap;
+	    height: 80vh;
+	}
+	#about-content {
+		/*font-family: 'Merriweather', serif;*/
+		margin-top: 10px;
+		font-size: 40px;
+		color: #5014EA;
+		text-align: center;
+		font-weight: bold;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#scroll-info-div {
+		font-size: 16px;
+	}
+
+#logo-div {
+	top: 10vh;
+}
+
+#scroll-info-div {
+	position: absolute; 
+    bottom: 10vh;
+    text-align: center;
+}
+
+
+#tpn {
+	background: white;
+}
+
+i {
+  border: solid #5014EA;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    animation: bounce 1s ease infinite;
+    transition: .2s linear opacity;
+}
